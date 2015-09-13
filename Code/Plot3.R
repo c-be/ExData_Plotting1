@@ -1,5 +1,8 @@
 # Get and Clean Data
 
+
+# Original code set the working directory to where the data file was. This was removed for the purposed of publishing to GitHub.
+
 household_data <- read.csv("household_power_consumption.txt", 
                             header = TRUE, sep = ";"
                          )
