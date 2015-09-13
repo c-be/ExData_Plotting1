@@ -22,7 +22,7 @@ Below is the code used to create the plot after the data had been process and cl
     axis(side=2, at=seq(0,1200, 200), labels=seq(0,1200, 200))
 </code></pre>
 
-![](Figures/plot1.png)
+![](Plots/plot1.png)
 
 ### Plot 2
 
@@ -32,7 +32,7 @@ Below is the code used to create the plot after the data had been process and cl
     type = "l")
 </code></pre>
 
-![](Figures/plot2.png)
+![](Plots/plot2.png)
 
 
 ### Plot 3
@@ -49,7 +49,7 @@ Below is the code used to create the plot after the data had been process and cl
        lty = c(1,1), col = c("black", "red", "blue"))
 </code></pre>
 
-![](Figures/plot3.png)
+![](Plots/plot3.png)
 
 ### Plot 4
 
@@ -92,4 +92,4 @@ plot(plot_data$Global_reactive_power ~ plot_data$DateTime,
     type = "l")
 </code></pre>
 
-![](Figures/plot4.png)
+![](Plots/plot4.png)
